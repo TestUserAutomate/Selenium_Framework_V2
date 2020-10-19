@@ -268,7 +268,7 @@ public class SeleniumBase implements Browser,Element{
 			if(browser.equalsIgnoreCase("chrome")) {
 				System.setProperty("webdriver.chrome.driver",
 
-						"./Chromedriver_84/chromedriver.exe");
+						"./Chromedriver_86/chromedriver.exe");
 
 				driver = new ChromeDriver();
 			} else if(browser.equalsIgnoreCase("firefox")) {
